@@ -1,11 +1,9 @@
-body
-{
-	background: coral;
+body {
+  background: coral;
 }
 
-.box
-{
-	background-color: green;
-	width: 100px;
-	height: 100px;
+.box {
+  background-color: green;
+  width: 100px;
+  height: 100px;
 }
