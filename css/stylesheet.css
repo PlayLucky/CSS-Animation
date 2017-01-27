@@ -1,9 +1,27 @@
 body {
-  background: coral;
+  background: -webkit-linear-gradient(white, black);
+  background: -o-linear-gradient(white, black);
+  background: -moz-linear-gradient(white, black);
+  background: linear-gradient(white, black);
+}
+
+img {
+  width: 500px;
+  border: solid 5px white;
+  -webkit-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 .box {
-  background-color: green;
-  width: 100px;
-  height: 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15%;
+  overflow: hidden;
+  background: -webkit-linear-gradient(white, yellow);
+  background: -o-linear-gradient(white, yellow);
+  background: -moz-linear-gradient(white, yellow);
+  background: linear-gradient(white, yellow);
+  -webkit-box-shadow: 10px 10px green;
+  box-shadow: 10px 10px green;
 }
